@@ -4,7 +4,10 @@
   "description": "hunt down hoomans",
   "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "webpack",
+    "sass": "node-sass src/sass/app.sass dist/css/app.css",
+    "sass-watch": "npm run sass -w"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/amielantonio/foxhound/issues"
   },
-  "homepage": "https://github.com/amielantonio/foxhound#readme"
+  "homepage": "https://github.com/amielantonio/foxhound#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "webpack": "^3.10.0"
+  }
 }
