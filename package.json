@@ -1,0 +1,24 @@
+{
+  "name": "foxhound",
+  "version": "1.0.0",
+  "description": "hunt down hoomans",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amielantonio/foxhound.git"
+  },
+  "keywords": [
+    "data",
+    "mining",
+    "php"
+  ],
+  "author": "amielantonio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amielantonio/foxhound/issues"
+  },
+  "homepage": "https://github.com/amielantonio/foxhound#readme"
+}
