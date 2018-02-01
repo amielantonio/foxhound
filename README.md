@@ -1,8 +1,5 @@
 # Foxhound
 
-[![License](https://img.shields.io/circleci/project/amielantonio/foxhound.svg)]()
-
-
 A heckin' data mining fren :dog:
 
 ## Getting Started
