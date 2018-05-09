@@ -1,6 +1,6 @@
 # Foxhound
 
-A heckin' data mining fren :dog:
+A heckin' worksnaps-integrated fren :dog:
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -18,12 +18,7 @@ $ npm run build
 
 
 ## Features
-- Yellow pages - Main site where we need to hunt down hoomans
-- Facebook - Second site where we need to hunt down hoomans
-- Linkedin - Third site where we need to hund down hoomans
 
-
-too many hunting, need jerky :dog: :meat_on_bone: :meat_on_bone: :banana:
 
 
 ## Deployment

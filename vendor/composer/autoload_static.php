@@ -20,11 +20,22 @@ class ComposerStaticInit92b1fa7278063be437755d894f9ff1cb
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'M' => 
+        array (
+            'Monolog' => 
+            array (
+                0 => __DIR__ . '/..' . '/monolog/monolog/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit92b1fa7278063be437755d894f9ff1cb::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit92b1fa7278063be437755d894f9ff1cb::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit92b1fa7278063be437755d894f9ff1cb::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
